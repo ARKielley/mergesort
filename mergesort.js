@@ -1,6 +1,3 @@
-//split function; splits into two
-// if length is > 1
-
 function split(arr) {
   const halfway = Math.floor(arr.length / 2);
   return [arr.slice(0, halfway), arr.slice(halfway)];
